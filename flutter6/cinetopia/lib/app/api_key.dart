@@ -1,0 +1,2 @@
+const String apiKey =
+    'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NTUwOTljMzhiMjljOTU1MWI1NjJiZTAzMzkyMTA0NyIsIm5iZiI6MTc4MzQ1ODMwNi41OTYsInN1YiI6IjZhNGQ2YTAyYjFiMzlhYmM0ZGZmNmM5MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EWP5gQnWtn-Uuyfrotn-h6qMDW5SfccGVamCKPaR_Dk';
