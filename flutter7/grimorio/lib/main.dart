@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:grimorio/screens/dashboard.dart';
 import 'package:grimorio/screens/splash.dart';
 
 void main() {

@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:grimorio/screens/components/carousel_item.dart';
 import 'package:grimorio/screens/login.dart';
 import 'package:grimorio/screens/components/primary_button.dart';
 import 'package:grimorio/theme.dart';
@@ -28,13 +28,18 @@ class Dashboard extends StatelessWidget {
                       // SvgPicture.asset("assets/images/logo.svg"),
                       CarouselSlider(
                         items: [
-                          Image.asset('assets/images/carousel-001.png'),
-                          Image.asset('assets/images/carousel-002.png'),
-                          Image.asset('assets/images/carousel-003.png'),
+                          CarouselItem(imagePath: "carousel-001.png", text: "Te amo maria"),
+                          CarouselItem(imagePath: "carousel-002.png", text: "Você é o meu amor"),
+                          CarouselItem(imagePath: "carousel-003.png", text: "Tô com saudades"),
                         ],
                         options: CarouselOptions(
                           autoPlay: true,
-                          autoPlayAnimationDuration: Duration(seconds: 2),
+                          autoPlayInterval: Duration(seconds: 2),
+                          aspectRatio: 1,
+                          autoPlayCurve: Curves.easeInBack,
+                          height: 500,
+                          viewportFraction: 1,
+                          autoPlayAnimationDuration: Duration(seconds: 1),
                         ),
                       ),
                       Padding(
